@@ -1,0 +1,8 @@
+Memory settings read from the user preferences: 4096
+args: 
+original java.home: C:\Program Files\OpenJDK\jdk-11.0.10.9-hotspot\bin\
+new java.home: C:\Program Files\OpenJDK\jdk-11.0.10.9-hotspot\bin\
+
+Command line: 
+"C:\Program Files\OpenJDK\jdk-11.0.10.9-hotspot\bin\java" -splash:resources\conf\peptide-shaker-splash.png -Xms128M -Xmx4096M -cp "C:\Software\PeptideShaker\PeptideShaker-2.2.0\PeptideShaker-2.2.0.jar" eu.isas.peptideshaker.gui.PeptideShakerGUI 
+Process exitValue: 0

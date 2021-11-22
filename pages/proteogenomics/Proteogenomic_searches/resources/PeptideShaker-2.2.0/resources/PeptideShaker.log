@@ -1,0 +1,55 @@
+
+
+Wed Sep 15 10:08:14 CEST 2021: PeptideShaker version 2.2.0.
+Memory given to the Java virtual machine: 4294967296.
+Total amount of memory in the Java virtual machine: 134217728.
+Free memory: 116487168.
+Java version: 11.0.10.
+1714 script command tokens
+(C) 2009 Jmol Development
+Jmol Version: 12.0.43  2011-05-03 14:21
+java.vendor: OpenLogic
+java.version: 11.0.10
+os.name: Windows 10
+memory: 30.0/161.5
+processors available: 4
+useCommandThread: false
+
+
+Mon Nov 22 11:42:24 CET 2021: PeptideShaker version 2.2.0.
+Memory given to the Java virtual machine: 4294967296.
+Total amount of memory in the Java virtual machine: 134217728.
+Free memory: 60624792.
+Java version: 11.0.10.
+java.net.UnknownHostException: genesis.ugent.be
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at com.compomics.software.autoupdater.WebDAO.getLatestVersionNumberFromRemoteRepo(WebDAO.java:34)
+	at com.compomics.software.autoupdater.WebDAO.newVersionReleased(WebDAO.java:105)
+	at com.compomics.software.CompomicsWrapper.checkForNewDeployedVersion(CompomicsWrapper.java:522)
+	at eu.isas.peptideshaker.gui.PeptideShakerGUI.checkForNewVersion(PeptideShakerGUI.java:8479)
+	at eu.isas.peptideshaker.gui.PeptideShakerGUI.<init>(PeptideShakerGUI.java:627)
+	at eu.isas.peptideshaker.gui.PeptideShakerGUI.main(PeptideShakerGUI.java:538)
+1714 script command tokens
+(C) 2009 Jmol Development
+Jmol Version: 12.0.43  2011-05-03 14:21
+java.vendor: OpenLogic
+java.version: 11.0.10
+os.name: Windows 10
+memory: 56.6/134.2
+processors available: 4
+useCommandThread: false
