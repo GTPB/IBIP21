@@ -1,0 +1,36 @@
+OMSSA Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\OMSSA\windows
+false
+X!Tandem Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\XTandem\windows\windows_64bit
+true
+MS-GF+ Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\MS-GF+
+false
+MS Amanda Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\MS Amanda\windows
+false
+MyriMatch Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\MyriMatch\windows\windows_64bit
+false
+Comet Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\Comet\windows\windows_64bit
+false
+Tide Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\Tide\windows\windows_64bit
+false
+Andromeda Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\Andromeda\windows
+false
+MetaMorpheus Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\MetaMorpheus
+false
+Novor Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\Novor
+false
+DirecTag Location:
+C:\Software\SearchGUI\SearchGUI-4.1.1\resources\DirecTag\windows\windows_64bit
+false
+makeblastdb Location:
+null
+

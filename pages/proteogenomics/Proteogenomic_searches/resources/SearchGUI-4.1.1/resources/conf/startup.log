@@ -1,0 +1,8 @@
+Memory settings read from the user preferences: 4096
+args: 
+original java.home: C:\Program Files\OpenJDK\jdk-11.0.10.9-hotspot\bin\
+new java.home: C:\Program Files\OpenJDK\jdk-11.0.10.9-hotspot\bin\
+
+Command line: 
+"C:\Program Files\OpenJDK\jdk-11.0.10.9-hotspot\bin\java" -splash:resources\conf\searchgui-splash.png -Xms128M -Xmx4096M -cp "C:\Software\SearchGUI\SearchGUI-4.1.1\SearchGUI-4.1.1.jar" eu.isas.searchgui.gui.SearchGUI 
+Process exitValue: 0

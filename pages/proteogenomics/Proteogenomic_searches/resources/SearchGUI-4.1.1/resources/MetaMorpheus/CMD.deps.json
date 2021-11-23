@@ -1,0 +1,943 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CMD/1.0.0": {
+        "dependencies": {
+          "CommandLineParser": "2.7.82",
+          "EngineLayer": "0.0.319.8595",
+          "Microsoft.ML": "1.3.1",
+          "Microsoft.ML.FastTree": "1.3.1",
+          "Microsoft.NETCore.App": "2.2.8",
+          "Nett": "0.13.0",
+          "TaskLayer": "1.0.0",
+          "mzLib": "1.0.500"
+        },
+        "runtime": {
+          "CMD.dll": {}
+        }
+      },
+      "CommandLineParser/2.7.82": {
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "assemblyVersion": "2.7.82.0",
+            "fileVersion": "2.7.82.0"
+          }
+        }
+      },
+      "Easy.Common/3.5.0": {
+        "dependencies": {
+          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Easy.Common.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "MathNet.Numerics/4.15.0": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "4.15.0.0",
+            "fileVersion": "4.15.0.0"
+          }
+        }
+      },
+      "Microsoft.ML/1.3.1": {
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.3.1",
+          "Microsoft.ML.DataView": "1.3.1",
+          "Newtonsoft.Json": "12.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.1",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Tasks.Dataflow": "4.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libLdaNative.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libLdaNative.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/LdaNative.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.3.28006.10"
+          },
+          "runtimes/win-x86/native/LdaNative.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.3.28006.10"
+          }
+        }
+      },
+      "Microsoft.ML.CpuMath/1.3.1": {
+        "dependencies": {
+          "System.Memory": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libCpuMathNative.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libCpuMathNative.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/CpuMathNative.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.3.28006.10"
+          },
+          "runtimes/win-x86/native/CpuMathNative.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.3.28006.10"
+          }
+        }
+      },
+      "Microsoft.ML.DataView/1.3.1": {
+        "dependencies": {
+          "System.Memory": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          }
+        }
+      },
+      "Microsoft.ML.FastTree/1.3.1": {
+        "dependencies": {
+          "Microsoft.ML": "1.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libFastTreeNative.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libFastTreeNative.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/FastTreeNative.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.3.28006.10"
+          },
+          "runtimes/win-x86/native/FastTreeNative.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.3.28006.10"
+          }
+        }
+      },
+      "Microsoft.NETCore.App/2.2.8": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "2.2.8",
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "NETStandard.Library": "2.0.3"
+        }
+      },
+      "Microsoft.NETCore.DotNetAppHost/2.2.8": {},
+      "Microsoft.NETCore.DotNetHostPolicy/2.2.8": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.2.8"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostResolver/2.2.8": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.2.8"
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.NETCore.Targets/2.0.0": {},
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "mzLib/1.0.500": {
+        "dependencies": {
+          "Easy.Common": "3.5.0",
+          "MathNet.Numerics": "4.15.0",
+          "Microsoft.Win32.Registry": "5.0.0",
+          "NetSerializer": "4.1.1",
+          "OpenMcdf": "2.2.1.3",
+          "OpenMcdf.Extensions": "2.2.1.3",
+          "SharpLearning.Optimization": "0.28.0"
+        },
+        "runtime": {
+          "lib/net5.0/BayesianEstimation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/Chemistry.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/FlashLFQ.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/MassSpectrometry.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/Mgf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/MzIdentML.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/MzLibUtil.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/MzML.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/PepXML.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/Proteomics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/ThermoFisher.CommonCore.BackgroundSubtraction.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.7"
+          },
+          "lib/net5.0/ThermoFisher.CommonCore.Data.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.7"
+          },
+          "lib/net5.0/ThermoFisher.CommonCore.MassPrecisionEstimator.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.7"
+          },
+          "lib/net5.0/ThermoFisher.CommonCore.RawFileReader.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.7"
+          },
+          "lib/net5.0/ThermoRawFileReader.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net5.0/UsefulProteomicsDatabases.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NetSerializer/4.1.1": {
+        "runtime": {
+          "lib/netstandard2.1/NetSerializer.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      },
+      "Nett/0.13.0": {
+        "runtime": {
+          "lib/netstandard2.0/Nett.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "OpenMcdf/2.2.1.3": {
+        "runtime": {
+          "lib/netstandard2.0/OpenMcdf.dll": {
+            "assemblyVersion": "2.2.1.2",
+            "fileVersion": "2.2.1.3"
+          }
+        }
+      },
+      "OpenMcdf.Extensions/2.2.1.3": {
+        "dependencies": {
+          "OpenMcdf": "2.2.1.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenMcdf.Extensions.dll": {
+            "assemblyVersion": "2.1.6.28924",
+            "fileVersion": "2.2.1.3"
+          }
+        }
+      },
+      "runtime.native.System/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0"
+        }
+      },
+      "SharpLearning.Common.Interfaces/0.28.0": {
+        "dependencies": {
+          "SharpLearning.Containers": "0.28.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Common.Interfaces.dll": {
+            "assemblyVersion": "0.28.0.0",
+            "fileVersion": "0.28.0.0"
+          }
+        }
+      },
+      "SharpLearning.Containers/0.28.0": {
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Containers.dll": {
+            "assemblyVersion": "0.28.0.0",
+            "fileVersion": "0.28.0.0"
+          }
+        }
+      },
+      "SharpLearning.DecisionTrees/0.28.0": {
+        "dependencies": {
+          "SharpLearning.Common.Interfaces": "0.28.0",
+          "SharpLearning.Containers": "0.28.0",
+          "SharpLearning.InputOutput": "0.28.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.DecisionTrees.dll": {
+            "assemblyVersion": "0.28.0.0",
+            "fileVersion": "0.28.0.0"
+          }
+        }
+      },
+      "SharpLearning.InputOutput/0.28.0": {
+        "dependencies": {
+          "SharpLearning.Containers": "0.28.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.InputOutput.dll": {
+            "assemblyVersion": "0.28.0.0",
+            "fileVersion": "0.28.0.0"
+          }
+        }
+      },
+      "SharpLearning.Optimization/0.28.0": {
+        "dependencies": {
+          "SharpLearning.Common.Interfaces": "0.28.0",
+          "SharpLearning.Containers": "0.28.0",
+          "SharpLearning.RandomForest": "0.28.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.Optimization.dll": {
+            "assemblyVersion": "0.28.0.0",
+            "fileVersion": "0.28.0.0"
+          }
+        }
+      },
+      "SharpLearning.RandomForest/0.28.0": {
+        "dependencies": {
+          "SharpLearning.Common.Interfaces": "0.28.0",
+          "SharpLearning.Containers": "0.28.0",
+          "SharpLearning.DecisionTrees": "0.28.0",
+          "SharpLearning.InputOutput": "0.28.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpLearning.RandomForest.dll": {
+            "assemblyVersion": "0.28.0.0",
+            "fileVersion": "0.28.0.0"
+          }
+        }
+      },
+      "System.CodeDom/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.5.0": {},
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Memory/4.5.1": {},
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0"
+        }
+      },
+      "System.Runtime.Handles/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Handles": "4.3.0"
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Threading": "4.3.0",
+          "runtime.native.System": "4.3.0"
+        }
+      },
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "2.0.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks.Dataflow/4.8.0": {},
+      "EngineLayer/0.0.319.8595": {
+        "dependencies": {
+          "Microsoft.ML": "1.3.1",
+          "Microsoft.ML.FastTree": "1.3.1",
+          "Microsoft.NETCore.App": "2.2.8",
+          "NETStandard.Library": "2.0.3",
+          "Nett": "0.13.0",
+          "Newtonsoft.Json": "12.0.3",
+          "mzLib": "1.0.500"
+        },
+        "runtime": {
+          "EngineLayer.dll": {}
+        }
+      },
+      "TaskLayer/1.0.0": {
+        "dependencies": {
+          "EngineLayer": "0.0.319.8595",
+          "MathNet.Numerics": "4.15.0",
+          "Microsoft.ML": "1.3.1",
+          "Microsoft.ML.FastTree": "1.3.1",
+          "Microsoft.NETCore.App": "2.2.8",
+          "NetSerializer": "4.1.1",
+          "Nett": "0.13.0",
+          "mzLib": "1.0.500"
+        },
+        "runtime": {
+          "TaskLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CMD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommandLineParser/2.7.82": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JnjxBu4++EDnYtDzHskiPrPJ9hAna8amu8qlQx8J+2oZnPddDnkR/0FFtQMDz0Cs0YF2lbyW3OmYfRmIrLNY0A==",
+      "path": "commandlineparser/2.7.82",
+      "hashPath": "commandlineparser.2.7.82.nupkg.sha512"
+    },
+    "Easy.Common/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kzNE3+9wMGvnmXfUOJ42+R8s+v0GJVgtHS2Qc+Zp9dF0dimFc0rpxE9vNDvMu1UHnJrV8DKsMKLRFjIOlaAliA==",
+      "path": "easy.common/3.5.0",
+      "hashPath": "easy.common.3.5.0.nupkg.sha512"
+    },
+    "MathNet.Numerics/4.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cP4QgPPiU7boMyL8npvuQyVGVYUd/JQY1AWa+Wl2f//fuJN40qwt9ABRazunZIcDLHg3SSlgD/e+3Lnp69jNTg==",
+      "path": "mathnet.numerics/4.15.0",
+      "hashPath": "mathnet.numerics.4.15.0.nupkg.sha512"
+    },
+    "Microsoft.ML/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q63fp7E7UHKNjFKDnx5C2gJu/k8VIYegbwm8DgWJRVJNTZTxh+FzEFKXBh70agesbGNIWbWHjJHTyCkojK9YLg==",
+      "path": "microsoft.ml/1.3.1",
+      "hashPath": "microsoft.ml.1.3.1.nupkg.sha512"
+    },
+    "Microsoft.ML.CpuMath/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SCkNYnkd06kA2/CQWa88iLck6NalMvWVRzwwySuqotyUfUmtdAwWA3hliNusR6ieQif3A6SSFbzl9Yu2zpyb2g==",
+      "path": "microsoft.ml.cpumath/1.3.1",
+      "hashPath": "microsoft.ml.cpumath.1.3.1.nupkg.sha512"
+    },
+    "Microsoft.ML.DataView/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EbbP/ZO9wmNK9p9JbjNriw2bA8fuDFmCQp8gLHdsP3If3YpbdCTN0LDm+jkWwDS2V943F7nv8bTJLQSGYTLdrw==",
+      "path": "microsoft.ml.dataview/1.3.1",
+      "hashPath": "microsoft.ml.dataview.1.3.1.nupkg.sha512"
+    },
+    "Microsoft.ML.FastTree/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4kbSy1jybptEn1AyJzgVQ+Fay67qNn6DqqIE9cS6hdGKii0oemgG3wtBJG+YhymEVD4+anoPqN+Zt/iq8A0tLA==",
+      "path": "microsoft.ml.fasttree/1.3.1",
+      "hashPath": "microsoft.ml.fasttree.1.3.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.App/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GOxlvyc8hFrnhDjYlm25JJ7PwoyeoOpZzcg6ZgF8n8l6VxezNupRkkTeA2ek1WsspN0CdAoA8e7iDVNU84/F+Q==",
+      "path": "microsoft.netcore.app/2.2.8",
+      "hashPath": "microsoft.netcore.app.2.2.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetAppHost/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lh1F6z41levvtfC3KuuiQe9ppWKRP1oIB42vP1QNQE4uumo95h+LpjPDeysX1DlTjCzG0BVGSUEpCW5fHkni7w==",
+      "path": "microsoft.netcore.dotnetapphost/2.2.8",
+      "hashPath": "microsoft.netcore.dotnetapphost.2.2.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rOHr0Dk87vaiq9d1hMpXETB4IKq1jIiPQlVKNUjRGilK/cjOcadhsk+1MsrJ/GnM3eovhy8zW2PGkN8pYEolnw==",
+      "path": "microsoft.netcore.dotnethostpolicy/2.2.8",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.2.2.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostResolver/2.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-culLr+x2GvUkXVGi4ULZ7jmWJEhuAMyS7iTWBlkWnqbKtYJ36ZlgHbw/6qTm82790gJemEFeo9RehDwfRXfJzA==",
+      "path": "microsoft.netcore.dotnethostresolver/2.2.8",
+      "hashPath": "microsoft.netcore.dotnethostresolver.2.2.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-odP/tJj1z6GylFpNo7pMtbd/xQgTC3Ex2If63dRTL38bBNMwsBnJ+RceUIyHdRBC0oik/3NehYT+oECwBhIM3Q==",
+      "path": "microsoft.netcore.targets/2.0.0",
+      "hashPath": "microsoft.netcore.targets.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "mzLib/1.0.500": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u3rDlR9X3zsdG51YHPbEHqOi33YrXRYycNgqId6A8K6NWRX815vBhtkoJ+kZ8YTorcOHzlPqern6c+aeoZY8Ig==",
+      "path": "mzlib/1.0.500",
+      "hashPath": "mzlib.1.0.500.nupkg.sha512"
+    },
+    "NetSerializer/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+cuRiy1WxO3Y5ZNCBYZnOAIwAoCS7IKeEyJi70v9YiUJ0X3KVn66XLnN2J1o0x/WTb5g/QLBhGOb51+GPVWdxQ==",
+      "path": "netserializer/4.1.1",
+      "hashPath": "netserializer.4.1.1.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Nett/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s3GMchEhJHuDEddBV4g5UbK7x6r7inTRZ0mOmqPXQPAQ0mr8pODN++5mfnAbAs/s6RI4+qYNuoUymnGBxgbfgQ==",
+      "path": "nett/0.13.0",
+      "hashPath": "nett.0.13.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "OpenMcdf/2.2.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X6tEnuNMC8K9fjcv2iVKS7peiVDgVCFHWqwD8vU79SLiKJnaQiyR1oZQoL8MbfA3dOVEdCDIotiJcEiXGoeyTw==",
+      "path": "openmcdf/2.2.1.3",
+      "hashPath": "openmcdf.2.2.1.3.nupkg.sha512"
+    },
+    "OpenMcdf.Extensions/2.2.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kqdDwKvQ6BbwQSATqiUSZYmq4lbC7BLOWz6MRcLYuLYNeHrb134x0e3Ra7WEohuoeNbxvPeKYIsZWIUHmu/D0A==",
+      "path": "openmcdf.extensions/2.2.1.3",
+      "hashPath": "openmcdf.extensions.2.2.1.3.nupkg.sha512"
+    },
+    "runtime.native.System/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eoZPkFPloZDhvB7h+q6/5IPEuntG/l15miF9iT8wwYZpXfU+/BZlmNrg7TPAf+M+f7VQt4et40T6fmTAu7/ZiQ==",
+      "path": "runtime.native.system/4.3.0",
+      "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
+    },
+    "SharpLearning.Common.Interfaces/0.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UHnDYRYdDZlzGTiFH4xB3qjWgY0lb+4TLIBwMix1I9uWoqbngkQIp+ISnHIiVI2Iq+MjKVq3lIKTJNDT3BMV4Q==",
+      "path": "sharplearning.common.interfaces/0.28.0",
+      "hashPath": "sharplearning.common.interfaces.0.28.0.nupkg.sha512"
+    },
+    "SharpLearning.Containers/0.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oaKdsOju0hJK/nEKo2ZmhqwnYq6Bu+LQzprqnEMFwJCYH/kZhMjTGLe01NhHVay7CYCu6wC1b0CxwCBMjIQZSg==",
+      "path": "sharplearning.containers/0.28.0",
+      "hashPath": "sharplearning.containers.0.28.0.nupkg.sha512"
+    },
+    "SharpLearning.DecisionTrees/0.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+H7M3o1QM0p3u5AEXcTsFk943yoETtjlu8gPzdHsHoJG0XgKbnvlEc8RQF9dUisckZpLazXOX9t4gs4neqwijQ==",
+      "path": "sharplearning.decisiontrees/0.28.0",
+      "hashPath": "sharplearning.decisiontrees.0.28.0.nupkg.sha512"
+    },
+    "SharpLearning.InputOutput/0.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1/H93xWkFC0E2MALJpX1NoCSajC0sLbCHjyAbQIy58/BUbsA7D+y+KGE5z3DDxb3Xc/QfDgbc9UYy0WkyKGLyw==",
+      "path": "sharplearning.inputoutput/0.28.0",
+      "hashPath": "sharplearning.inputoutput.0.28.0.nupkg.sha512"
+    },
+    "SharpLearning.Optimization/0.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VZ+T/cN+DX8leJnJod2OmXthfU93NmuoOS5e3jZwDZszeXhTW8EgaZDO5O2g9LiqLrgCYi6i5rTq9W5KJ4KLCw==",
+      "path": "sharplearning.optimization/0.28.0",
+      "hashPath": "sharplearning.optimization.0.28.0.nupkg.sha512"
+    },
+    "SharpLearning.RandomForest/0.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j/OicOpPj81tNPDs9hCO9oA+9qGNXa0fExG43aIOlnyReMzN8Kr6qQrdf2XSBsKdPW4Ez+8pWKzyORrf221iRg==",
+      "path": "sharplearning.randomforest/0.28.0",
+      "hashPath": "sharplearning.randomforest.0.28.0.nupkg.sha512"
+    },
+    "System.CodeDom/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+      "path": "system.codedom/4.4.0",
+      "hashPath": "system.codedom.4.4.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wQE3SlD0S2AwPYEQbJF+Wlnf5As8rKEQn81VTpU9vYps59TmnloPIffrT885WRLVAo0xSSJ4zN4ypXu0R7ubdQ==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GNy3sOwdAQQp6XJCFzYFjiqUBZ50dkHUlP4wAkMqiNWqVuOfhn2MosMu1RODBDvqfHQy5zKj//bkkMAvazjXxg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
+      "path": "system.memory/4.5.1",
+      "hashPath": "system.memory.4.5.1.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J0ER2NbmzLy+0QZGmm4MH4TC2kba31MAiKvNHK7mP9oSN1/lem04O0RHYqTjGNM8dOBUjwtwnEjLnyY7wvw6Zg==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qBnaQuse0wsQoIrRdqnn7hi9j6Eg8OPT0eK9K/476p0d4OTx1t+jWp6XHN0F88h4RulJ4bfO8mlq5Iu1U2RdVw==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aP89txrupvb57+PavsJ7wl/SR+tL2Xk/d6FEpqGiH8Ep6MPuEcDjGWaN4sNIOq4nuQAkZ9ghqZ6kgKqYZpeSYQ==",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QKyk7yC+iUocDkT7oORF2pkM3BTpqMOPGvjtb048PxNNR/fugGxjkCs0QDpWUY0MOf4PGNNutoCqJ90G5jez6w==",
+      "path": "system.reflection.extensions/4.3.0",
+      "hashPath": "system.reflection.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KujoGfSA/g0xDBtRwnoWNJUK/IbdqcsawgiQBPPob9MqJX1ZQPHdWOzTm2P+E8N/DOcHQRVy4BHPh8hltfY2UA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q7YdlQCjUTYYujiv0n/jA3hrKDqq9CSi8B+fefvv7jwdSKV1toIddNRGMKMF1PwCMK09gjGd3iH9eY5PpyeVkw==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nG4N/hbrZClrxIs1Ty3GgRmE3FrPC2t2AyYGcuMzRcjKGlNZSbCXEiNbS2HpopBlwULV0ToX6Vzv7OV00ngHag==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Handles/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/q30rN+/6ob58v+Sloh4oGwbI96Wqo0mnyRPKEXAPFwGYu0mgk7EdPC56U4mVNcfVEv3v+ZwfcVQcHTeTFu8QQ==",
+      "path": "system.runtime.handles/4.3.0",
+      "hashPath": "system.runtime.handles.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6hPsNS/SwBFeUknHSHSVZcGjwSszQr7IpHYWohX8vki7lafBEXGLno8uBkYlZqXRiM831+mdPH1WmGi/efj4Ng==",
+      "path": "system.runtime.interopservices/4.3.0",
+      "hashPath": "system.runtime.interopservices.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R9O1n1gIqzOj/v835ojh2WDEslYu4Zho/55OmaNITnT/Jrvh9hzus9xQB91ho3pVEx06Yor8P8oCyPZ6xGCDLA==",
+      "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
+      "hashPath": "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9b5eNqH1cCKKAVmLj2OltYQb6+Ocgt25TFhnMPsvZwv/hFo4pHgPeFdrbV0t7iQ02N+0bOhEzYL6m2HAhSNGVA==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bgGlrzgqSwwC7bZgJqRwRvi3munHXXKbZmnyg36u6sQXmUiYreqEdQU0RnkXQ8RBARuh9mcapHk6L1MrB+SP3Q==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XH9OZ3KgUDsU+tv1YLqbCThnGlytHg4x07S1ivltaYxs3OEg1Hystba12gslmtFfQVivDq/9K2OATSW2VFWdkQ==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Dataflow/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PSIdcgbyNv7FZvZ1I9Mqy6XZOwstYYMdZiXuHvIyc0gDyPjEhrrP9OvTGDHp+LAHp1RNSLjPYssyqox9+Kt9Ug==",
+      "path": "system.threading.tasks.dataflow/4.8.0",
+      "hashPath": "system.threading.tasks.dataflow.4.8.0.nupkg.sha512"
+    },
+    "EngineLayer/0.0.319.8595": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
