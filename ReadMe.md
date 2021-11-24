@@ -34,6 +34,9 @@ This is the link to the [course webpage](http://gtpb.igc.gulbenkian.pt/bicourses
 
 --->
 
+#### Wrap-up forms
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeaeiyNcunCOHLFfDZbVA4wxft_vpyxviAmG92_XkiVG__IJw/viewform?usp=pp_url">Wrap-up form Wednesday<a>
+
 #### Code of Conduct
 Please read the [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for details on contributing and reusing the training material.
 

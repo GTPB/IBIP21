@@ -1,0 +1,8 @@
+Which measurements can we use to further check data quality?
+
+What would you do when finding 1-2 samples that are behaving differently or having issues?
+
+You get a paper to review. Which are your top 2 items of the data analysis to check?
+
+You want to find other studies that analyzed samples from codfish, how do you find them?
+
